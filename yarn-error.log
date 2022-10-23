@@ -1,0 +1,42 @@
+Arguments: 
+  /Users/hotohara/.nvm/versions/node/v16.16.0/bin/node /usr/local/Cellar/yarn/1.22.19/libexec/bin/yarn.js add -D vuepress@next
+
+PATH: 
+  /Users/hotohara/.nvm/versions/node/v16.16.0/bin:/Users/hotohara/.gvm/pkgsets/go1.14.9/global/bin:/Users/hotohara/.gvm/gos/go1.14.9/bin:/Users/hotohara/.gvm/pkgsets/go1.14.9/global/overlay/bin:/Users/hotohara/.gvm/bin:/Users/hotohara/.gvm/bin:/Users/hotohara/google-cloud-sdk/bin:/Library/Java/JavaVirtualMachines/adoptopenjdk-14.jdk/Contents/Home/bin:/Users/hotohara/.pyenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/hotohara/.nodebrew/current/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/hotohara/cap2022/isolate/press/package.json: Unexpected string in JSON at position 164
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.19/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "ls",
+    "version": "1.0.0",
+    "description": "vuepress start",
+    "main": "index.js",
+    "author": "Hotohara <hot87hara@gmail.com>",
+    "license": "MIT"
+    "scripts": {
+      "docs:dev": "vuepress dev docs",
+      "docs:build": "vuepress build docs"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
